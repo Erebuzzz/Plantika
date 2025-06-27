@@ -117,7 +117,7 @@ Update contact details in the contact section of `src/app/page.tsx`
 
 ## 🚀 Deployment
 
-See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions for:
+See [DEPLOYMENT.md](./plantika/DEPLOYMENT.md) for detailed deployment instructions for:
 - ✅ Vercel (Recommended)
 - ✅ Netlify
 - ✅ GitHub Pages
