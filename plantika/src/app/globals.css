@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  /* Light theme colors */
+  --background: 248 250 252; /* slate-50 */
+  --foreground: 15 23 42; /* slate-900 */
+  --muted: 241 245 249; /* slate-100 */
+  --muted-foreground: 100 116 139; /* slate-500 */
+  --primary: 34 197 94; /* emerald-500 */
+  --primary-foreground: 255 255 255;
+  --secondary: 16 185 129; /* emerald-600 */
+  --accent: 236 253 245; /* emerald-50 */
+  --border: 226 232 240; /* slate-200 */
+  --card: 255 255 255;
+  --card-foreground: 15 23 42;
+}
+
+.dark {
+  /* Dark theme colors */
+  --background: 2 6 23; /* slate-950 */
+  --foreground: 248 250 252; /* slate-50 */
+  --muted: 15 23 42; /* slate-900 */
+  --muted-foreground: 148 163 184; /* slate-400 */
+  --primary: 34 197 94; /* emerald-500 */
+  --primary-foreground: 255 255 255;
+  --secondary: 5 150 105; /* emerald-700 */
+  --accent: 2 44 34; /* emerald-950 */
+  --border: 30 41 59; /* slate-800 */
+  --card: 15 23 42; /* slate-900 */
+  --card-foreground: 248 250 252;
+}
+
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
